@@ -18,6 +18,7 @@ import { MyTitlePipe } from './my-title.pipe';
 import { Ng2SearchPipeModule} from 'ng2-search-filter';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { RegisterComponent } from './register/register.component';
     TourlistComponent,
     MyTitlePipe,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    CartComponent
   ],
     imports: [
         BrowserModule,

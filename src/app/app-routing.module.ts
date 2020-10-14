@@ -7,6 +7,7 @@ import {BookingTicketComponent} from './booking-ticket/booking-ticket.component'
 import {TourlistComponent} from './tourlist/tourlist.component';
 import {LoginComponent} from './login/login.component';
 import {RegisterComponent} from './register/register.component';
+import {CartComponent} from './cart/cart.component';
 
 const routes: Routes = [
   {
@@ -34,6 +35,10 @@ const routes: Routes = [
   {
     path: 'app-login',
     component: LoginComponent
+  },
+  {
+    path: 'app-cart',
+    component: CartComponent
   }
 
 

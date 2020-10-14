@@ -57,7 +57,11 @@ export class BookingTicketComponent implements OnInit {
   }
   ngOnAfterContentInit(){
     console.log('BookingTicketComponent: AfterContentInit');
+    console.log('BookingTicketComponent: ngAfterContentChecked()');
+    console.log('BookingTicketComponent: ngAfterViewInit()');
+    console.log('BookingTicketComponent: ngAfterViewChecked()');
   }
+
   ngOnDestroy() {
     // reset whole form back to initial state
     this.submitted = false;
